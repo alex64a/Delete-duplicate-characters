@@ -35,6 +35,7 @@ int main() {
   cout << "Enter a string in which you wish to remove duplicate characters: "
        << endl;
   cin >> s;
-  cout << deleteDuplicates(s) << endl;
+  cout << "Input: " << s << endl;
+  cout << "Output: " << deleteDuplicates(s) << endl;
   return 0;
 }
