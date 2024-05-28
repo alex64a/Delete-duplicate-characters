@@ -2,6 +2,7 @@
 
 ## Usage
 ```make``` the project and run with ```./main```
+
 User enters a string in which duplicate characters
 will be removed. Example:
                           -User input: aleksa
