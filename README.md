@@ -5,9 +5,10 @@
 
 User enters a string in which duplicate characters
 will be removed. 
+
 Example:
-        * User input: aleksa
-        * Output :    aleks
+* User input: aleksa
+* Output :    aleks
 
 This solution uses a hash map to store characters
 that have already appeared in a given string.
