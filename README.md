@@ -1,6 +1,6 @@
 # Delete duplicate characters in a string
 
-##Usage
+## Usage
 ```make``` the project and run with ```./main```
 User enters a string in which duplicate characters
 will be removed. Example:
