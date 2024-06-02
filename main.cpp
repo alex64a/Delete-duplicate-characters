@@ -29,7 +29,6 @@ string deleteDuplicates(string s) {
   return ans;
 }
 int main() {
-
   string input;
   int choice;
   while (true) {
@@ -38,9 +37,7 @@ int main() {
     cout << "2. Exit program" << endl << endl;
     cin >> choice;
     cout << endl;
-
     switch (choice) {
-
     case (1):
       cout
           << "Enter a string in which you wish to remove duplicate characters: "
@@ -53,9 +50,7 @@ int main() {
       cout << "Output: " << deleteDuplicates(input) << endl << endl;
       break;
     case (2):
-
       return 0;
-
     default:
       cout << "Invalid choice, please enter 1 or 2" << endl << endl;
     }
