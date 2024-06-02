@@ -28,14 +28,36 @@ string deleteDuplicates(string s) {
   }
   return ans;
 }
-
 int main() {
 
-  string s;
-  cout << "Enter a string in which you wish to remove duplicate characters: "
-       << endl;
-  cin >> s;
-  cout << "Input: " << s << endl;
-  cout << "Output: " << deleteDuplicates(s) << endl;
-  return 0;
+  string input;
+  int choice;
+  while (true) {
+    cout << "Choose one of the following : " << endl << endl;
+    cout << "1. Enter a string" << endl;
+    cout << "2. Exit program" << endl << endl;
+    cin >> choice;
+    cout << endl;
+
+    switch (choice) {
+
+    case (1):
+      cout
+          << "Enter a string in which you wish to remove duplicate characters: "
+          << endl
+          << endl;
+      cin.ignore(); // ignore the newline character left in the buffer
+      getline(cin, input);
+      cout << endl;
+      cout << "Input: " << input << endl;
+      cout << "Output: " << deleteDuplicates(input) << endl << endl;
+      break;
+    case (2):
+
+      return 0;
+
+    default:
+      cout << "Invalid choice, please enter 1 or 2" << endl << endl;
+    }
+  }
 }
